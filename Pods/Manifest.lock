@@ -1,0 +1,27 @@
+PODS:
+  - Realm (0.96.1):
+    - Realm/Headers (= 0.96.1)
+  - Realm/Headers (0.96.1)
+  - RealmSwift (0.96.1):
+    - Realm (= 0.96.1)
+  - SwiftyJSON (2.3.0)
+
+DEPENDENCIES:
+  - RealmSwift
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 83dc3138b14571200ea7f070933a2a510491e997
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Realm: d05e4621f67fb1c36acd4e573ac5b52a407fc2cc
+  RealmSwift: 6c96a72b385027d9593b69f6821c697fe843eb68
+  SwiftyJSON: cacfe0373d584585716bd1d43202c24cc66afd65
+
+COCOAPODS: 0.39.0
